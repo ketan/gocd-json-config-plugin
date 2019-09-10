@@ -397,13 +397,6 @@ In the above example, since both pipelines are in the same group, `pipeline2` wi
       ]
     }
   ],
-  "properties": [
-    {
-      "name": "perf",
-      "source": "test.xml",
-      "xpath": "substring-before(//report/data/all/coverage[starts-with(@type,\u0027class\u0027)]/@value, \u0027%\u0027)"
-    }
-  ],
   "tasks": [
     ...
   ]
