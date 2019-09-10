@@ -1,5 +1,7 @@
 ### 0.4.4 - Unreleased
 
+* removed support for `properties` attribute on a `job`
+
 ### 0.4.3 (2019-Aug-22)
 
 * updated README documenting `allow_only_on_success` attribute in approval
